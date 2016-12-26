@@ -12,7 +12,6 @@ namespace MatrixA1
             char yesToContinue = 'y';
 
             //Application rolls over until user decides to leave the program
-
             while (yesToContinue == 'y')
             {
                 RunMatrix rm = new RunMatrix();
