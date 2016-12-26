@@ -134,6 +134,7 @@ namespace MatrixA1
         }
 
         // populate List with range of numbers
+
         private static void populateList(RunMatrix rmM)
         {
             rmM.MatrixList = Enumerable.Range(rmM.MatrixList[0], rmM.RowNum * rmM.ColNum).ToList();

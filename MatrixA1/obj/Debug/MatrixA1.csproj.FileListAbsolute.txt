@@ -3,3 +3,6 @@ C:\Users\Marina Y\Documents\newGitTest\MatrixA1\MatrixA1\bin\Debug\MatrixA1.exe
 C:\Users\Marina Y\Documents\newGitTest\MatrixA1\MatrixA1\bin\Debug\MatrixA1.pdb
 C:\Users\Marina Y\Documents\newGitTest\MatrixA1\MatrixA1\obj\Debug\MatrixA1.exe
 C:\Users\Marina Y\Documents\newGitTest\MatrixA1\MatrixA1\obj\Debug\MatrixA1.pdb
+C:\Users\Marina Y\Documents\newGitTest\GitTest\MatrixA1\bin\Debug\MatrixA1.exe.config
+C:\Users\Marina Y\Documents\newGitTest\GitTest\MatrixA1\obj\Debug\MatrixA1.exe
+C:\Users\Marina Y\Documents\newGitTest\GitTest\MatrixA1\obj\Debug\MatrixA1.pdb
