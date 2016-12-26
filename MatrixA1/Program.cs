@@ -12,8 +12,28 @@ namespace MatrixA1
             char yesToContinue = 'y';
 
             //Application rolls over until user decides to leave the program
+            while (yesToContinue == 'y')
+            {
+                RunMatrix rm = new RunMatrix();
+                rm.MatrixList = new List<int>();
 
-operation: I, D or T ");
+                //ask to enter values
+                //validation is done
+                try
+                {
+                    Console.WriteLine("Please enter number of rows: ");
+                    rm.RowNum = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Please enter number of columns: ");
+                    rm.ColNum = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Please enter first numbers of the Matrix Grid:");
+                    rm.MatrixList.Add(int.Parse(Console.ReadLine()));
+                    //populate list with range of numbers starting at the number 
+                    //user enters and increament by 1
+                    populateList(rm);
+
+                    Console.WriteLine("Please enter operation: I, D or T ");
                     rm.Operation = char.Parse(Console.ReadLine());
                     showResults(rm);
                 }
